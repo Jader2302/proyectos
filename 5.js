@@ -9,7 +9,7 @@ const productos = [
 
 function resumenCategoria(productos) {
 
-    resultado = productos.reduce((acumulador,produc)=>{
+     const resultado = productos.reduce((acumulador,produc)=>{
 
         if (acumulador[produc.categoria]) {
             
